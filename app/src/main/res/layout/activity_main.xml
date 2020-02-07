@@ -8,14 +8,14 @@
 
     <Button
         android:id="@+id/buttoninc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/testfont"
+        android:layout_width="132dp"
+        android:layout_height="70dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="48dp"
-        android:text="@string/increaseBtn"
         android:background="@color/test"
+        android:fontFamily="@font/testfont"
+        android:text="@string/increaseBtn"
         app:layout_constraintBottom_toTopOf="@+id/counterValue"
         app:layout_constraintEnd_toStartOf="@+id/buttondec"
         app:layout_constraintHorizontal_bias="0.353"
@@ -25,18 +25,18 @@
 
     <Button
         android:id="@+id/buttondec"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/testfont"
+        android:layout_width="125dp"
+        android:layout_height="73dp"
         android:layout_marginTop="48dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:text="@string/decreaseBtn"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
         android:background="@color/dec"
+        android:fontFamily="@font/testfont"
+        android:text="@string/decreaseBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.147" />
 
     <Button
         android:id="@+id/buttonres"
